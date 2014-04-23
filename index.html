@@ -1,45 +1,67 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Helpstudy : Systema de Gerenciador de Conteúdo para Estudo" />
 
-  <title>Helpstudy</title>
-  <meta name="description" content="Systema de Gerenciador de Conteúdo para Estudo">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Helpstudy</title>
+  </head>
 
-</head>
+  <body>
 
-<body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/fabianogoes/helpstudy">View on GitHub</a>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Helpstudy</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">Systema de Gerenciador de Conteúdo para Estudo</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/fabianogoes/helpstudy/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/fabianogoes/helpstudy/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/fabianogoes/helpstudy" class="code">View Helpstudy on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+          <h1 id="project_title">Helpstudy</h1>
+          <h2 id="project_tagline">Systema de Gerenciador de Conteúdo para Estudo</h2>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/fabianogoes/helpstudy/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/fabianogoes/helpstudy/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="helpstudy" class="anchor" href="#helpstudy"><span class="octicon octicon-link"></span></a>helpstudy</h1>
+
+<h3>
+<a name="systema-de-gerenciador-de-conte%C3%BAdo-para-estudo" class="anchor" href="#systema-de-gerenciador-de-conte%C3%BAdo-para-estudo"><span class="octicon octicon-link"></span></a>Systema de Gerenciador de Conteúdo para Estudo</h3>
+
+<p>A propósta do projeto é um sistema onde 1 [usuário] pode ter N [Temas] para estudo. 
+Para cara [Tema] ele vai cadastrando o [conteúdo]: </p>
+
+<ul>
+<li>palavras</li>
+<li>frases</li>
+<li>textos</li>
+<li>etc...
+com as [respostas] e [tags] </li>
+</ul><p>[tags]: que pode servir como palavras chave de pesquisa e filtro.</p>
+
+<p>O sistema deve ter a seguinte inteligencia:
+Durante o estudo, a cada resposta do usuário ele diz o nivel de dificuldade: </p>
+
+<ul>
+<li>Acertou</li>
+<li>Errou</li>
+<li>Muito Facil</li>
+<li>Facil</li>
+<li>Dificil</li>
+<li>Muito Dificil</li>
+</ul><p>Dependendo o nivel de dificuldade o sistema deve sortear o [conteudo], 
+onde os conteudos com niveis facil serão sorteados com menos frequencia que os conteudos mais dificeis.</p>
+
+<p>Conforme o usuário erra um [conteudo] com uma [tag] X o sistema já prioriza os proximos [conteudo] com a [tag] X.</p>
 
 <pre><code>$ cd your_repo_root/repo_name
 $ git fetch origin
@@ -67,26 +89,18 @@ $ git checkout gh-pages
 <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
 <p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </article>
-      </div>
+      </section>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/fabianogoes" class="avatar"><img src="https://avatars1.githubusercontent.com/u/1350949?s=60" width="48" height="48"/></a> <a href="https://github.com/fabianogoes">fabianogoes</a> maintains <a href="https://github.com/fabianogoes/helpstudy">Helpstudy</a></p>
 
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Helpstudy maintained by <a href="https://github.com/fabianogoes">fabianogoes</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
 
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/fabianogoes/helpstudy/tarball/master" class="tar">tar</a><a href="https://github.com/fabianogoes/helpstudy/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
+    
 
-  
-</body>
+  </body>
 </html>

@@ -29,5 +29,4 @@ Conforme o usuário erra um [conteudo] com uma [tag] X o sistema já prioriza os
 
 ************************
 
-Ambiente: 
 [Ambiente](environment.md)

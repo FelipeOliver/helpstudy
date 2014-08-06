@@ -1,8 +1,0 @@
-Django==1.6.3
-South==0.8.4
-argparse==1.2.1
-freeze==0.8.0
-ipython==2.0.0
-six==1.6.1
-wsgiref==0.1.2
-yolk==0.4.3

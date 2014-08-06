@@ -27,3 +27,4 @@ onde os conteudos com niveis facil serão sorteados com menos frequencia que os 
 
 Conforme o usuário erra um [conteudo] com uma [tag] X o sistema já prioriza os proximos [conteudo] com a [tag] X.
 
+************************

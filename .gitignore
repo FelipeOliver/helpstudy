@@ -5,3 +5,4 @@ target/
 helpstudt.log
 helpstudt.properties
 helpstudt.script
+.DS_Store

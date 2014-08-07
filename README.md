@@ -29,6 +29,6 @@ Conforme o usuário erra um [conteudo] com uma [tag] X o sistema já prioriza os
 
 ************************
 
-[Ambiente...](environment.md)
+[Ambiente...](doc-guide/environment.md)
 
-[Getting Started](getting-startted.md)
+[Getting Started](doc-guide/getting-startted.md)

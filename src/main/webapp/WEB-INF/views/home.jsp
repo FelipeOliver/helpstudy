@@ -2,13 +2,14 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>HelpStudy</title>
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
+	<h1>HelpStudy</h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+	<ul>
+		<li><a href="userView">User</a></li>
+	</ul>
+
 </body>
 </html>

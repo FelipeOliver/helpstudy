@@ -4,7 +4,7 @@ Ambiente
 * Java 7
 * Tomcat 7
 * Maven 3
-* PostgreSQL
+* MySQL(produção) / HSQLDB(Testes)
 
 IDE
 ===
@@ -33,11 +33,13 @@ Tecnologias / Frameworks
 * Java EE
 * Spring MVC
 * Spring IoC
+* Spring Transaction
 * JPA
 * Hibernate
 * Twitter Bootstrap
 * HTML5
 * JQuery
+* CSS
 
 
 ***********************

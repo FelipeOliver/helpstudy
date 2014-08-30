@@ -1,7 +1,7 @@
 helpstudy
 =========
 
-### Systema de Gerenciador de Conteúdo para Estudo ###
+### Systema Gerenciador de Conteúdo para Estudo ###
 
 A propósta do projeto é um sistema onde 1 [usuário] pode ter N [Temas] para estudo. 
 Para cara [Tema] ele vai cadastrando o [conteúdo]: 
